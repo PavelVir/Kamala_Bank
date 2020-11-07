@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce3e3164-17ec-45a4-91c7-73b700e28a73">
+  <producedTypes>
+    <objectType typeId="60aa6728-9b0c-4234-94a9-b7933ca984fe" valueTypeId="6b2b6aa4-17ed-44e0-88f4-8173d4ab0653"/>
+    <refType typeId="56786b0a-de98-4965-99e6-3871b40a6067" valueTypeId="7f66cbf3-2835-4c20-8af6-ece0a80c04a4"/>
+    <selectionType typeId="b488a62b-f51c-416b-985f-8eec3e83f910" valueTypeId="4b705e77-f8e7-428f-b6f9-9a31af4b596d"/>
+    <listType typeId="15c4f6de-28a5-4d18-9f8a-9a6b333c1648" valueTypeId="7880c6cd-7ced-4934-a08e-84c84db69041"/>
+    <managerType typeId="da597b93-6231-46f9-a388-c3dbda043b70" valueTypeId="3232e5f1-df78-4c30-83e1-c6e13c74d47e"/>
+  </producedTypes>
+  <name>ПравилаЧтенияТабличныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Камала) Правила чтения табличных документов</value>
+  </synonym>
+  <inputByString>Catalog.ПравилаЧтенияТабличныхДокументов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Правило чтения табличного документа</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultObjectForm>Catalog.ПравилаЧтенияТабличныхДокументов.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="6bd3894b-a318-4b25-bb38-072f9bb19d4c">
+    <producedTypes>
+      <objectType typeId="ed472473-ebbf-459a-993b-faa987adc1e0" valueTypeId="1e2334a2-a522-4a79-8f73-f7f6315fb258"/>
+      <rowType typeId="9162fad5-7201-4489-bfbf-d9153ad7a53b" valueTypeId="1e5a4b4f-c74e-4c09-9f93-9ed14296be11"/>
+    </producedTypes>
+    <name>ПоказателиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели документа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="24eba133-4007-480e-aa29-7ef88028a273">
+      <name>КлючПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ показателя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="740c69fa-5f44-4eb3-9e17-0c558440dd34">
+      <name>ПоложениеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Положение показателя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a3c83fa2-03f0-468a-910a-303f7344dad4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="99ded400-9b86-4c48-9408-5ec205f3cbb0">
+    <name>ПравилоЧтения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило чтения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="01b1a611-5b5a-4cab-af7b-bf9dcb4036a0">
+    <name>ПредустановленныеПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предустановленные правила</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>
