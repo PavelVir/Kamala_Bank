@@ -444,6 +444,17 @@
         <value></value>
       </fillValue>
     </attributes>
+    <attributes uuid="8787c677-9eb8-4254-b7d2-b97184787f1b">
+      <name>АналитикаПредставление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналитика представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+    </attributes>
   </tabularSections>
   <forms uuid="4ebb44d7-443b-470b-bd51-42ea7f2c6cd1">
     <name>ЗагрузкаВыписки</name>

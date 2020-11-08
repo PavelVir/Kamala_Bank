@@ -9,6 +9,7 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <logo>Extended</logo>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ef4b5e94-6239-4dd6-bf53-c39aefd89016"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0159fc54-aa5c-4ad3-a0c1-9991b1e6f343"/>
@@ -17,13 +18,31 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="aa2538fc-e712-489a-b99a-ebe2f1da397f"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="283b0aee-bd71-4b4e-b76d-e44983145631"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="96568286-b9a6-49f1-b798-7fd2714f0878"/>
-  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>КБ_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>kamala-soft</vendor>
+  <version>1.0.0</version>
+  <briefInformation>
+    <key>ru</key>
+    <value>Расширения для работы клент-банка</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Расширения для работы клент-банка, разработано компанией Kamala-soft.</value>
+  </detailedInformation>
+  <logo/>
+  <copyright>
+    <key>ru</key>
+    <value>Распостраняется бесплатно</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://kamala-soft.com/about/</value>
+  </vendorInformationAddress>
   <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="f1ee53c1-81b0-4ab0-88aa-af2d1d062153">
     <name>Русский</name>
@@ -34,6 +53,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.кс_ДоработкиУчетнойСистемы</subsystems>
+  <commonPictures>CommonPicture.КБ_Автор</commonPictures>
   <commonForms>CommonForm.КБ_ФормаКлючевыхСлов</commonForms>
   <catalogs>Catalog.ПравилаЧтенияТабличныхДокументов</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
@@ -41,6 +61,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ВидыНалогов</catalogs>
   <documents>Document.ПоступлениеНаСчет</documents>
   <documents>Document.РасходСоСчета</documents>
   <enums>Enum.ВидыОперацийРасходСоСчета</enums>

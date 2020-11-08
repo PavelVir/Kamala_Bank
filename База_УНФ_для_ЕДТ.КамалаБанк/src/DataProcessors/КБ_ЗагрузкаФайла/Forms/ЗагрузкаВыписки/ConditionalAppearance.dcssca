@@ -82,19 +82,16 @@
 				<field>ТаблицаОперацийДата</field>
 			</item>
 			<item>
-				<field>ТаблицаОперацийКошелек</field>
-			</item>
-			<item>
 				<field>ТаблицаОперацийСуммаПоступления</field>
 			</item>
 			<item>
 				<field>ТаблицаОперацийСуммаСписания</field>
 			</item>
 			<item>
-				<field>ТаблицаОперацийСсылкаНаОперациюПредставление</field>
+				<field>ТаблицаОперацийГруппаСчет</field>
 			</item>
 			<item>
-				<field>ТаблицаОперацийСтатьяДолг</field>
+				<field>ТаблицаОперацийСсылкаНаОперацию</field>
 			</item>
 		</selection>
 		<filter>

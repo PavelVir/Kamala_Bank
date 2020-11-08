@@ -76,6 +76,22 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="f869957c-aeb9-4190-9f6d-93262ca0bc7b">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОперацийПоступлениеНаСчет</types>
+      <types>EnumRef.ВидыОперацийРасходСоСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <dimensions uuid="5184fc87-049f-4d20-a28d-fdf821f18e84">
     <name>ИдентификаторОбъекта</name>
     <synonym>
@@ -94,155 +110,24 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="f869957c-aeb9-4190-9f6d-93262ca0bc7b">
-    <name>ВидОперации</name>
+  <dimensions uuid="6d9e9466-72c4-4c62-8db9-a6f88a7c618e">
+    <name>ЗначениеАналитики</name>
     <synonym>
       <key>ru</key>
-      <value>Вид операции</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВидыОперацийПоступлениеНаСчет</types>
-      <types>EnumRef.ВидыОперацийРасходСоСчета</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <master>true</master>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="c231bb9b-a6d4-4e7e-9c75-46e2c45efb14">
-    <name>Статья</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статья</value>
-    </synonym>
-    <synonym>
-      <key>uk</key>
-      <value>Стаття</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Статья движения денежных средств</value>
-    </toolTip>
-    <toolTip>
-      <key>uk</key>
-      <value>Стаття руху грошових коштів</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="b4137a23-9eea-46fc-b620-f6be430e24a1">
-    <name>Корреспонденция</name>
-    <synonym>
-      <key>ru</key>
-      <value>Корреспонденция</value>
-    </synonym>
-    <synonym>
-      <key>uk</key>
-      <value>Кореспонденція</value>
+      <value>Значение аналитики</value>
     </synonym>
     <type>
       <types>ChartOfAccountsRef.Управленческий</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Счет отнесения платежа</value>
-    </toolTip>
-    <toolTip>
-      <key>uk</key>
-      <value>Рахунок віднесення платежу</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <choiceParameters>
-      <name>Отбор.ТипСчета</name>
-      <value xsi:type="core:FixedArrayValue">
-        <values xsi:type="core:ReferenceValue">
-          <value>43d4c67c-5675-4e13-bdab-c1795a087140.70ee4c0b-2257-44f3-bfa4-d609a59160b3</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
-          <value>43d4c67c-5675-4e13-bdab-c1795a087140.8f3b1d03-64cd-462f-a1fe-950982f883c3</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
-          <value>43d4c67c-5675-4e13-bdab-c1795a087140.e8d30bfb-737f-4f81-be50-2c6b6f8aba28</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
-          <value>43d4c67c-5675-4e13-bdab-c1795a087140.da49f105-2268-408c-8de7-ef4634c0d729</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
-          <value>43d4c67c-5675-4e13-bdab-c1795a087140.a7beb8e7-467a-4eaf-82fc-ee2e36cd8fee</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
-          <value>43d4c67c-5675-4e13-bdab-c1795a087140.0c4c49bb-1b81-4602-8b39-d3564cf564a7</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
-          <value>43d4c67c-5675-4e13-bdab-c1795a087140.677ef3a3-7629-4daa-a942-b0a6be1b0302</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
-          <value>43d4c67c-5675-4e13-bdab-c1795a087140.3a3fbf65-51fa-4811-922b-b3ba02eca8bf</value>
-        </values>
-      </value>
-    </choiceParameters>
-    <choiceParameters>
-      <name>ВключатьВРасходыПрочие</name>
-      <value xsi:type="core:BooleanValue">
-        <value>true</value>
-      </value>
-    </choiceParameters>
-    <choiceParameters>
-      <name>ЗаголовокСчета</name>
-      <value xsi:type="core:StringValue">
-        <value>Операция</value>
-      </value>
-    </choiceParameters>
-    <choiceParameters>
-      <name>ИсключатьПредопределенныеСчета</name>
-      <value xsi:type="core:BooleanValue">
-        <value>true</value>
-      </value>
-    </choiceParameters>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>27dbc75d-f059-48ed-975d-24d0118eca46.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="88997b75-9926-49e3-916d-1b9dab99f839">
-    <name>Подотчетник</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подотчетник</value>
-    </synonym>
-    <synonym>
-      <key>uk</key>
-      <value>Підзвітник</value>
-    </synonym>
-    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+      <types>CatalogRef.Контрагенты</types>
       <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      <types>CatalogRef.ВидыНалогов</types>
     </type>
-    <toolTip>
-      <key>uk</key>
-      <value>Підзвітник, якому видаються кошти</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

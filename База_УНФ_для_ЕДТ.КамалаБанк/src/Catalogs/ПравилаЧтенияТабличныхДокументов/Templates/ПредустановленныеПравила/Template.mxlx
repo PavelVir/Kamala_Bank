@@ -2,11 +2,10 @@
 <document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<languageSettings>
 		<currentLanguage>ru</currentLanguage>
-		<defaultLanguage>ru</defaultLanguage>
+		<defaultLanguage>#</defaultLanguage>
 		<languageInfo>
 			<id>ru</id>
 			<code>Русский</code>
-			<description>Русский</description>
 		</languageInfo>
 	</languageSettings>
 	<columns>
@@ -207,6 +206,12 @@
 			<c>
 				<c>
 					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>R1C12</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -335,7 +340,12 @@
 			<c>
 				<c>
 					<f>9</f>
-					<tl/>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>R1C10</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -362,6 +372,12 @@
 			<c>
 				<c>
 					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>R1C11</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -517,4 +533,5 @@
 	<format>
 		<width>72</width>
 	</format>
+	<textDirection>LeftToRight</textDirection>
 </document>
